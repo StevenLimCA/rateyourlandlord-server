@@ -3,10 +3,10 @@
     "id": "1",
     "name": "Name of Landlord",
     "address": "123 main st.",
-    "postCode": "v5y1e2",
+    "postcode": "v5y1e2",
     "city": "Vancouver",
     "province": "BC",
-    "postingDate": 1625158995000,
+    "postingdate": 1625158995000,
     "monthlyPayment": 5000,
     "reviews": [
       {
