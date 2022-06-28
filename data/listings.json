@@ -8,6 +8,7 @@
     "province": "BC",
     "postingdate": 1625158995000,
     "monthlyPayment": 5000,
+    "rating": 100,
     "reviews": [
       {
         "id": 1,
