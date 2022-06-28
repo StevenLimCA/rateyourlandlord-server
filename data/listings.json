@@ -1,0 +1,20 @@
+[
+  {
+    "ID": "1",
+    "Name": "Name of Landlord",
+    "Address": "123 main st.",
+    "City": "Vancouver",
+    "Province": "BC",
+    "PostingDate": 1625158995000,
+    "MonthlyPayment": 5000,
+    "Reviews": [
+      {
+        "ID": 1,
+        "rating": 100,
+        "header": "great header",
+        "text": "review info",
+        "timestamp": 1625158995000
+      }
+    ]
+  }
+]
