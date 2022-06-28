@@ -1,15 +1,16 @@
 [
   {
-    "ID": "1",
-    "Name": "Name of Landlord",
-    "Address": "123 main st.",
-    "City": "Vancouver",
-    "Province": "BC",
-    "PostingDate": 1625158995000,
-    "MonthlyPayment": 5000,
-    "Reviews": [
+    "id": "1",
+    "name": "Name of Landlord",
+    "address": "123 main st.",
+    "postCode": "v5y1e2",
+    "city": "Vancouver",
+    "province": "BC",
+    "postingDate": 1625158995000,
+    "monthlyPayment": 5000,
+    "reviews": [
       {
-        "ID": 1,
+        "id": 1,
         "rating": 100,
         "header": "great header",
         "text": "review info",
