@@ -5,6 +5,8 @@
     "address": "123 main st.",
     "postcode": "v5y1e2",
     "city": "Vancouver",
+    "lat": "49.2786062",
+    "long:": "-123.0999113",
     "province": "BC",
     "postingdate": 1625158995000,
     "monthlyPayment": 5000,
