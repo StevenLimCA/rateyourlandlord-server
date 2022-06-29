@@ -1,12 +1,19 @@
 // const fs = require("fs");
 const { LISTING_PATH, readFile, writeFile } = require("../utils/utils");
 
-function getAllListing(_req, res) {
+function getAllListing(req, res) {
   readFile(LISTING_PATH, (data) => {
     if (!data) {
       res.status(404).send("Information not found");
     }
-    const listings = JSON.parse(data);
+
+    let listings = JSON.parse(data);
+
+    if (req.query.search !== undefined) {
+      listings = listings.filter((Listing) => {
+        return Listing.address.includes(req.query.search);
+      });
+    }
     res.status(200).json(listings);
   });
 }
