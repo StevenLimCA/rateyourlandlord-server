@@ -11,7 +11,9 @@ function getAllListing(req, res) {
 
     if (req.query.search !== undefined) {
       listings = listings.filter((Listing) => {
-        return Listing.address.includes(req.query.search);
+        return Listing.address
+          .toLowerCase()
+          .includes(req.query.search.toLowerCase());
       });
     }
     res.status(200).json(listings);
