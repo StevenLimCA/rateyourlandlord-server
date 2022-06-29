@@ -15,8 +15,8 @@
       {
         "id": 1,
         "rating": 100,
-        "header": "great header",
-        "text": "review info",
+        "text": "Really great place",
+        "name": "John Doe",
         "timestamp": 1625158995000
       }
     ]
@@ -37,8 +37,8 @@
       {
         "id": 1,
         "rating": 50,
-        "header": "broken header",
-        "text": "review info",
+        "text": "great place",
+        "name": "Bobby Mah",
         "timestamp": 1625158995000
       }
     ]
