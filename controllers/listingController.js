@@ -36,7 +36,7 @@ function postReview(req, res) {
       timestamp: Date.now(),
     };
     listingFound.reviews.push(newReview);
-    fs.writeFile(LISTING_PATH, JSON.stringify(newReview), (err) => {
+    fs.writeFile(LISTING_PATH, JSON.stringify(listingData), (err) => {
       err ? console.log(err) : console.log("file written");
     });
     res.status(201).json(newReview);
