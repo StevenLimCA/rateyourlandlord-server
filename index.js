@@ -8,6 +8,6 @@ app.use(express.static("public"));
 app.use(cors());
 app.use("/listing", listing);
 app.listen(port, () => {
-  console.log(`Server is on ${port}`);
+  console.log(`Server is on http://localhost:${port}`);
 });
 module.exports = app;

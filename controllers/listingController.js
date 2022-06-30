@@ -1,6 +1,6 @@
-// const fs = require("fs");
-const { LISTING_PATH, readFile, writeFile } = require("../utils/utils");
-
+const fs = require("fs");
+const { LISTING_PATH, readFile } = require("../utils/utils");
+const { v4: uuidv4 } = require("uuid");
 function getAllListing(req, res) {
   readFile(LISTING_PATH, (data) => {
     if (!data) {
@@ -19,5 +19,28 @@ function getAllListing(req, res) {
     res.status(200).json(listings);
   });
 }
+function postReview(req, res) {
+  readFile(LISTING_PATH, (data) => {
+    const listingData = JSON.parse(data);
+    console.log(req.params.listingId);
+    const listingFound = listingData.find(
+      (listing) => listing.id == req.params.listingId
+    );
 
-module.exports = { getAllListing };
+    const { rating, text, name } = req.body;
+    const newReview = {
+      id: uuidv4(),
+      rating,
+      text,
+      name,
+      timestamp: Date.now(),
+    };
+    listingFound.reviews.push(newReview);
+    fs.writeFile(LISTING_PATH, JSON.stringify(newReview), (err) => {
+      err ? console.log(err) : console.log("file written");
+    });
+    res.status(201).json(newReview);
+  });
+}
+
+module.exports = { getAllListing, postReview };
