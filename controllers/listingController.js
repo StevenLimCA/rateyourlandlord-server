@@ -75,6 +75,7 @@ function postNewListing(req, res) {
     lat,
     lng,
     postingDate: Date.now(),
+    monthlyPayment,
     imgPath:
       "https://rateyourlandlord.herokuapp.com/images/" + req.file.filename,
     reviews: [],
