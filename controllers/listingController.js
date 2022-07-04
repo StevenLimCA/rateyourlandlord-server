@@ -50,32 +50,19 @@ function postReview(req, res) {
 function postNewListing(req, res) {
   console.log("PostnewListing:" + JSON.stringify(req.body));
   console.log(API_URL + req.file.filename);
-  const {
-    name,
-    address,
-    postcode,
-    phone,
-    email,
-    city,
-    prov,
-    country,
-    lat,
-    lng,
-  } = JSON.parse(req.body.data);
+  console.log(req.body);
+  const { name, email, phone, address, price, lat, lng } = req.body;
   const newListing = {
     id: uuidv4(),
     name,
-    address,
-    postcode,
-    phone,
     email,
-    city,
-    prov,
-    country,
+    phone,
+    address,
+    price,
     lat,
     lng,
     postingDate: Date.now(),
-    monthlyPayment,
+
     imgPath:
       "https://rateyourlandlord.herokuapp.com/images/" + req.file.filename,
     reviews: [],

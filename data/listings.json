@@ -1,44 +1,15 @@
 [
   {
-    "id": "1",
-    "name": "Robert Brim",
-    "address": "650 W 41 St.",
-    "postcode": "V5Z 2M9",
-    "Phone": "16041234567",
-    "email": "rob.brim4959@aim.com",
-    "city": "Vancouver",
-    "prov": "BC",
-    "country": "Canada",
-    "lat": "49.2328589",
-    "lng": "-123.1170634",
-    "postingdate": 1625158995000,
-    "monthlyPayment": 3000,
-    "rating": 100,
-    "reviews": [
-      {
-        "id": 1,
-        "rating": 100,
-        "text": "Really great place",
-        "name": "John Doe",
-        "timestamp": 1625158995000
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "name": "Samantha Rych",
-    "address": "3195 Oak St.",
-    "postcode": "V6H 2L2",
-    "Phone": "16043214321",
-    "email": "samatha.rych495@aol.com",
-    "city": "Vancouver",
-    "province": "BC",
-    "country": "Canada",
-    "lat": "49.2572939",
-    "lng": "-123.1297311",
-    "postingdate": 1625258995000,
-    "monthlyPayment": 2000,
-    "rating": 50,
+    "id": "0b095d11-11ed-4a72-94aa-b00c3d535cc8",
+    "name": "John Mcguire",
+    "email": "test@test.com",
+    "phone": "1234567890",
+    "address": "123 Main St, Vancouver, BC V6A 2S5, Canada",
+    "price": "1234",
+    "lat": "49.2836504",
+    "lng": "-123.0997878",
+    "postingDate": 1656962603584,
+    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1656962603550.jpg",
     "reviews": [
       {
         "id": 1,
