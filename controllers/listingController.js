@@ -51,13 +51,14 @@ function postNewListing(req, res) {
   console.log("PostnewListing:" + JSON.stringify(req.body));
   console.log(API_URL + req.file.filename);
   console.log(req.body);
-  const { name, email, phone, address, price, lat, lng } = req.body;
+  const { name, email, phone, address, desc, price, lat, lng } = req.body;
   const newListing = {
     id: uuidv4(),
     name,
     email,
     phone,
     address,
+    desc,
     price,
     lat,
     lng,
@@ -82,6 +83,7 @@ function editListingById(req, res) {
     listingFound.email = email;
     listingFound.phone = phone;
     listingFound.price = price;
+    listingFound.desc = desc;
     listingFound.lat = lat;
     listingFound.lng = lng;
     fs.writeFile(LISTING_PATH, JSON.stringify(allListings), (err) => {

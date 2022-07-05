@@ -6,6 +6,7 @@
     "phone": "1234567890",
     "address": "123 Main St, Vancouver, BC V6A 2S5, Canada",
     "price": "1234",
+    "desc": "1 bedroom, 1 bath",
     "lat": "49.2836504",
     "lng": "-123.0997878",
     "postingDate": 1656962603584,
@@ -34,6 +35,7 @@
     "phone": "1234567890",
     "address": "B Building, 100 W 49th Ave, Vancouver, BC V5Y 2Z6, Canada",
     "price": "1200",
+    "desc": "1 bedroom, 1 bath",
     "lat": "49.224025",
     "lng": "-123.108032",
     "postingDate": 1656995443705,
@@ -47,5 +49,18 @@
         "timestamp": 1656566727772
       }
     ]
+  },
+  {
+    "id": "da018f24-54ee-4942-89df-b43c1858bfd5",
+    "name": "Claire Redfield",
+    "email": "claire.redfield@redcutie.com",
+    "phone": "12343219494",
+    "address": "95 E Hastings St, Vancouver, BC V6A, Canada",
+    "price": "1500",
+    "lat": "49.2815831",
+    "lng": "-123.1024524",
+    "postingDate": 1657001606798,
+    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657001606776.jpg",
+    "reviews": []
   }
 ]
