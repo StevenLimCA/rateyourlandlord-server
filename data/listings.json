@@ -26,5 +26,18 @@
         "timestamp": 1656566727772
       }
     ]
+  },
+  {
+    "id": "6c305fdf-e969-4858-8077-8410ce6c592c",
+    "name": "Ronald Macdonald",
+    "email": "this.Ronald.Macdonald@javascript.com",
+    "phone": "1234567890",
+    "address": "B Building, 100 W 49th Ave, Vancouver, BC V5Y 2Z6, Canada",
+    "price": "1200",
+    "lat": "49.224025",
+    "lng": "-123.108032",
+    "postingDate": 1656995443705,
+    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1656995443680.jpg",
+    "reviews": []
   }
 ]

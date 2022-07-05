@@ -70,4 +70,60 @@ function postNewListing(req, res) {
   writeFile(LISTING_PATH, newListing);
   res.status(201).json(newListing);
 }
-module.exports = { postNewListing, getAllListing, postReview };
+function editListingById(req, res) {
+  const { name, email, phone, address, price, lat, lng } = req.body;
+  readFile(WAREHOUSE_PATH, (data) => {
+    const allListings = JSON.parse(data);
+    const listingFound = allListings.find(
+      (listing) => listing.id == req.params.listingId
+    );
+    listingFound.name = name;
+    listingFound.address = address;
+    listingFound.email = email;
+    listingFound.phone = phone;
+    listingFound.price = price;
+    listingFound.lat = lat;
+    listingFound.lng = lng;
+    fs.writeFile(LISTING_PATH, JSON.stringify(allListings), (err) => {
+      err ? console.log(err) : console.log("Listing edited");
+    });
+    res.status(200).json(req.body);
+  });
+}
+function deleteListingById(req, res) {
+  readFile(LISTING_PATH, (data) => {
+    const allListings = JSON.parse(data);
+    const listingIndexFound = allListings.findIndex(
+      (listing) => listing.id === req.params.listingId
+    );
+    if (listingIndexFound < 0) {
+      res.status(404).send("nothing to delete");
+    } else {
+      allListings.splice(listingIndexFound, 1);
+      fs.writeFile(LISTING_PATH, JSON.stringify(allListings), (err) => {
+        err ? console.log(err) : console.log("listing deleted");
+      });
+      res.status(200).json(allListings);
+    }
+  });
+}
+function getListingDetailsById(req, res) {
+  readFile(LISTING_PATH, (data) => {
+    const ListingInfo = JSON.parse(data);
+    const foundListingInfo = ListingInfo.find(
+      (listing) => listing.id === req.params.listingId
+    );
+    if (!foundListingInfo) {
+      res.status(404).send("Listing not found.");
+    }
+    res.status(200).send(foundListingInfo);
+  });
+}
+module.exports = {
+  deleteListingById,
+  postNewListing,
+  getAllListing,
+  postReview,
+  editListingById,
+  getListingDetailsById,
+};

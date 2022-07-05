@@ -16,10 +16,13 @@ const {
   getAllListing,
   postReview,
   postNewListing,
+  editListingById,
+  deleteListingById,
 } = require("../controllers/listingController");
 router
   .route("/")
   .get(getAllListing)
   .post(upload.single("image"), postNewListing);
 router.route("/:listingId/review").post(postReview);
+router.route("/:listingId").put(editListingById).delete(deleteListingById);
 module.exports = router;
