@@ -72,8 +72,8 @@ function postNewListing(req, res) {
   res.status(201).json(newListing);
 }
 function editListingById(req, res) {
-  const { name, email, phone, address, price, lat, lng } = req.body;
-  readFile(WAREHOUSE_PATH, (data) => {
+  const { name, email, phone, address, desc, price, lat, lng } = req.body;
+  readFile(LISTING_PATH, (data) => {
     const allListings = JSON.parse(data);
     const listingFound = allListings.find(
       (listing) => listing.id == req.params.listingId
