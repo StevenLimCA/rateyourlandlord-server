@@ -18,11 +18,16 @@ const {
   postNewListing,
   editListingById,
   deleteListingById,
+  getListingDetailsById,
 } = require("../controllers/listingController");
 router
   .route("/")
   .get(getAllListing)
   .post(upload.single("image"), postNewListing);
 router.route("/:listingId/review").post(postReview);
-router.route("/:listingId").put(editListingById).delete(deleteListingById);
+router
+  .route("/:listingId")
+  .get(getListingDetailsById)
+  .put(editListingById)
+  .delete(deleteListingById);
 module.exports = router;
