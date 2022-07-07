@@ -10,7 +10,7 @@
     "lat": "49.2836504",
     "lng": "-123.0997878",
     "postingDate": 1657200691862,
-    "imgPath": "https://rateyourlandlord.netlify.app/images/1657200691836.jpg",
+    "imgPath": "http://localhost:8080/images/1657200691836.jpg",
     "reviews": [
       {
         "id": "b4a33d63-8019-4d54-941f-a84fc35edf68",
@@ -60,7 +60,7 @@
     "lat": "49.224025",
     "lng": "-123.108032",
     "postingDate": 1657201145319,
-    "imgPath": "https://rateyourlandlord.netlify.app/images/1657201145307.jpg",
+    "imgPath": "http://localhost:8080/images/1657201145307.jpg",
     "reviews": [
       {
         "id": "651899c8-b7a8-4886-84ab-72becf42c13c",
@@ -89,7 +89,7 @@
     "lat": "49.2554489",
     "lng": "-123.1148733",
     "postingDate": 1657201867467,
-    "imgPath": "https://rateyourlandlord.netlify.app/images/1657201867428.jpg",
+    "imgPath": "http://localhost:8080/images/1657201867428.jpg",
     "reviews": [
       {
         "id": "103e1630-2dd7-4197-a420-615bc8c95193",
@@ -118,7 +118,7 @@
     "lat": "49.2911932",
     "lng": "-123.1299827",
     "postingDate": 1657202899900,
-    "imgPath": "https://rateyourlandlord.netlify.app/images/1657202899877.jpg",
+    "imgPath": "http://localhost:8080/images/1657202899877.jpg",
     "reviews": [
       {
         "id": "fb7ccb25-4d77-4927-a90b-9d18edf4fdd7",
@@ -147,7 +147,7 @@
     "lat": "53.1746911",
     "lng": "-7.7188899",
     "postingDate": 1657203424294,
-    "imgPath": "https://rateyourlandlord.netlify.app/images/1657203424281.jpg",
+    "imgPath": "http://localhost:8080/images/1657203424281.jpg",
     "reviews": [
       {
         "id": "eaba9de8-0c8b-42f5-9312-8b68e5c99df6",
@@ -183,7 +183,7 @@
     "lat": "43.6455606",
     "lng": "-79.39540939999999",
     "postingDate": 1657205073027,
-    "imgPath": "https://rateyourlandlord.netlify.app/images/1657205073009.jpg",
+    "imgPath": "http://localhost:8080/images/1657205073009.jpg",
     "reviews": [
       {
         "id": "b9ad8252-e069-4c15-8637-17768c2f8847",
@@ -212,7 +212,7 @@
     "lat": "49.2850523",
     "lng": "-123.1147406",
     "postingDate": 1657205400350,
-    "imgPath": "https://rateyourlandlord.netlify.app/images/1657205400334.jpg",
+    "imgPath": "http://localhost:8080/images/1657205400334.jpg",
     "reviews": [
       {
         "id": "921b7d4e-4b37-4820-b088-f8c82e87c403",
@@ -241,7 +241,7 @@
     "lat": "51.5209968",
     "lng": "-0.0772543",
     "postingDate": 1657205699376,
-    "imgPath": "https://rateyourlandlord.netlify.app/images/1657205699360.jpg",
+    "imgPath": "http://localhost:8080/images/1657205699360.jpg",
     "reviews": [
       {
         "id": "f809211b-1902-42f0-9013-3216582c1921",
