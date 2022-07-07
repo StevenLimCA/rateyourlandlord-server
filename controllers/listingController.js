@@ -2,10 +2,9 @@ require("dotenv").config();
 const fs = require("fs");
 const { LISTING_PATH, readFile, writeFile } = require("../utils/utils");
 const { v4: uuidv4 } = require("uuid");
-const API_URL = "https://rateyourlandlord.herokuapp.com/images/";
+const localServer = process.env.LOCAL_SERVER;
 
 function getAllListing(req, res) {
-  console.log(process.env);
   readFile(LISTING_PATH, (data) => {
     if (!data) {
       res.status(404).send("Information not found");
@@ -26,7 +25,7 @@ function getAllListing(req, res) {
 function postReview(req, res) {
   readFile(LISTING_PATH, (data) => {
     const listingData = JSON.parse(data);
-    console.log(req.params.listingId);
+
     const listingFound = listingData.find(
       (listing) => listing.id == req.params.listingId
     );
@@ -48,9 +47,6 @@ function postReview(req, res) {
 }
 
 function postNewListing(req, res) {
-  console.log("PostnewListing:" + JSON.stringify(req.body));
-  console.log(API_URL + req.file.filename);
-  console.log(req.body);
   const { name, email, phone, address, desc, price, lat, lng } = req.body;
   const newListing = {
     id: uuidv4(),
@@ -63,9 +59,7 @@ function postNewListing(req, res) {
     lat,
     lng,
     postingDate: Date.now(),
-
-    imgPath:
-      "https://rateyourlandlord.herokuapp.com/images/" + req.file.filename,
+    imgPath: `${localServer}images/` + req.file.filename,
     reviews: [],
   };
   writeFile(LISTING_PATH, newListing);

@@ -1,5 +1,6 @@
 const express = require("express");
 const multer = require("multer");
+
 const path = require("path");
 const router = express.Router();
 const storage = multer.diskStorage({
@@ -28,6 +29,6 @@ router.route("/:listingId/review").post(postReview);
 router
   .route("/:listingId")
   .get(getListingDetailsById)
-  .put(editListingById)
+  .put(upload.single("image"), editListingById)
   .delete(deleteListingById);
 module.exports = router;
