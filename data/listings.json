@@ -1,55 +1,5 @@
 [
   {
-    "id": "dc7235bd-4b05-48f2-a949-27da5ce8c2f2",
-    "name": "Angie Lu",
-    "email": "Angie.Lulu@lulu.com",
-    "phone": "1234567890",
-    "address": "B Building, 100 W 49th Ave, Vancouver, BC V5Y 2Z6, Canada",
-    "desc": "1 bedroom, 1 bath, Kitchen",
-    "price": "1234",
-    "lat": "49.224025",
-    "lng": "-123.108032",
-    "postingDate": 1657201145319,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657201145307.jpg",
-    "reviews": [
-      {
-        "id": "651899c8-b7a8-4886-84ab-72becf42c13c",
-        "rating": 100,
-        "text": "She carries her self well. Perfect person to go to when stuff are broken.",
-        "name": "Rob Mah",
-        "timestamp": 1657201256411
-      },
-      {
-        "id": "79faceba-986b-45c4-ab32-871051398a3d",
-        "rating": 100,
-        "text": "Has a can do attitude, and she really knows how to make tea well.",
-        "name": "Yoda Foda",
-        "timestamp": 1657201607881
-      },
-      {
-        "id": "3bfe6b85-44d7-49da-894d-187bf6e2b4c4",
-        "rating": 80,
-        "text": "didn't buy me coffee",
-        "name": "Mel",
-        "timestamp": 1657215289936
-      },
-      {
-        "id": "4b6052fe-8170-40b3-9bc8-b0ddfcee1324",
-        "rating": 100,
-        "text": "not hot enoufh",
-        "name": "s",
-        "timestamp": 1657218974317
-      },
-      {
-        "id": "13896dbe-f9a4-450b-ab41-a9d1b9a70d37",
-        "rating": 20,
-        "text": "terrible didn't feed me enough",
-        "name": "f",
-        "timestamp": 1657218999676
-      }
-    ]
-  },
-  {
     "id": "9692c396-08dd-4aae-a418-45a31b42d51e",
     "name": "Fubiki Anari",
     "email": "test@test.com",
@@ -75,6 +25,13 @@
         "text": "Great service and beautiful place! Cant stop looking at the Landlord but hey! cant complain!",
         "name": "Molly Lim",
         "timestamp": 1657202729323
+      },
+      {
+        "id": "e5aa416d-145d-405a-9b5f-304d38ecaeaf",
+        "rating": 60,
+        "text": "not so good service",
+        "name": "kyla",
+        "timestamp": 1657236633093
       }
     ]
   },
@@ -104,6 +61,20 @@
         "text": "Great place and always there to help.",
         "name": "Donald Frump",
         "timestamp": 1657203161745
+      },
+      {
+        "id": "1ded44f1-a0d5-4e8d-80e6-221b167898ab",
+        "rating": 100,
+        "text": "great service",
+        "name": "Davi",
+        "timestamp": 1657237239798
+      },
+      {
+        "id": "448d55d6-25ac-497b-83d9-f3f2ce8f4098",
+        "rating": 100,
+        "text": "great work",
+        "name": "s",
+        "timestamp": 1657245168637
       }
     ]
   },
@@ -140,6 +111,48 @@
         "text": "Didn't give me help when I asked so I deducted one star",
         "name": "Ri Dio",
         "timestamp": 1657204873264
+      },
+      {
+        "id": "685a4287-54e8-4f72-89cc-048fb76a833f",
+        "rating": 60,
+        "text": "bedbugs beware!",
+        "name": "m",
+        "timestamp": 1657237690753
+      },
+      {
+        "id": "ba8599a7-2cb6-4e91-95ad-434801a71828",
+        "rating": 60,
+        "text": "not so good ",
+        "name": "bob",
+        "timestamp": 1657241895568
+      },
+      {
+        "id": "3de4426a-c5df-4261-b071-780808944329",
+        "rating": 100,
+        "text": "great service",
+        "name": "i",
+        "timestamp": 1657242899261
+      },
+      {
+        "id": "3a137d77-4521-489b-b397-42d684094c61",
+        "rating": 20,
+        "text": "bed bugs terrible place",
+        "name": "jh",
+        "timestamp": 1657243150772
+      },
+      {
+        "id": "79b0cd69-044a-4873-9650-68a4126dcf73",
+        "rating": 100,
+        "text": "TOOO GOOD",
+        "name": "ED",
+        "timestamp": 1657243877897
+      },
+      {
+        "id": "73d6bd49-e699-485d-99d2-febc3d3b2a74",
+        "rating": 100,
+        "text": "great person",
+        "name": "t",
+        "timestamp": 1657244842615
       }
     ]
   },
@@ -169,6 +182,13 @@
         "text": "Perfect Place to have a great time.",
         "name": "Coco Lee",
         "timestamp": 1657205213594
+      },
+      {
+        "id": "4aefa942-3d7c-4f01-8a57-597fecc7f7e3",
+        "rating": 60,
+        "text": "not hot enough",
+        "name": "jey",
+        "timestamp": 1657238452406
       }
     ]
   },
@@ -198,6 +218,13 @@
         "text": "The greatest place of all time. Very cozy",
         "name": "Frea",
         "timestamp": 1657205449466
+      },
+      {
+        "id": "b6f18651-616d-452f-b094-72716c702ebc",
+        "rating": 100,
+        "text": "great service",
+        "name": "k",
+        "timestamp": 1657241333675
       }
     ]
   },
@@ -227,35 +254,6 @@
         "text": "Perfect Place to stay in a storm",
         "name": "G",
         "timestamp": 1657205779031
-      }
-    ]
-  },
-  {
-    "id": "b3599f57-2b6b-478c-9f7a-099c7e3e2d98",
-    "name": "Akko Musashii",
-    "email": "test@test.com",
-    "phone": "12343219999",
-    "address": "undefined",
-    "desc": "1 bedroom 1 bathroom",
-    "price": "1245",
-    "lat": "40.72496599999999",
-    "lng": "-73.9963705",
-    "postingDate": 1657214040214,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657214040191.jpg",
-    "reviews": [
-      {
-        "id": "c5a39345-2da9-4b7c-b3cf-53b3c92a0c1d",
-        "rating": 100,
-        "text": "Awesome place to live ",
-        "name": "BB",
-        "timestamp": 1657214081299
-      },
-      {
-        "id": "1d899953-f781-4a47-8955-33a4fdd2db33",
-        "rating": 80,
-        "text": "She served me coffee and bread every morning!",
-        "name": "Lolo",
-        "timestamp": 1657214144818
       }
     ]
   },
@@ -318,38 +316,31 @@
     ]
   },
   {
-    "id": "00ffc635-5888-4bb4-be65-dfd56a8d098c",
-    "name": "Nelson",
-    "email": "test@test.com",
-    "phone": "12343219494",
-    "address": "Number 3 Rd, Richmond, BC, Canada",
+    "id": "dfeb1c98-d748-4e71-8f10-40b012b577b2",
+    "name": "Megan Roberts",
+    "email": "Meg@roberts.com",
+    "phone": "1234567890",
+    "address": "6551 No. 3 Rd, Richmond, BC V6Y 2B6, Canada",
     "desc": "1 bedroom 1 bathroom",
-    "price": "1500",
-    "lat": "49.1532687",
-    "lng": "-123.1366635",
-    "postingDate": 1657218614671,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657218614660.jpg",
+    "price": "1245",
+    "lat": "49.16600529999999",
+    "lng": "-123.1385914",
+    "postingDate": 1657741544963,
+    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657741544927.jpg",
     "reviews": [
       {
-        "id": "3b14c777-6d82-4e18-952c-b10421b143f1",
+        "id": "2b6e59ad-df60-4e99-8552-ab62ab0909de",
         "rating": 100,
-        "text": "great landlord, very helpful",
-        "name": "art",
-        "timestamp": 1657218642434
+        "text": "perfect place to stay for a night.",
+        "name": "B",
+        "timestamp": 1657741584626
       },
       {
-        "id": "e99b6d9c-eb7a-4bfa-87d7-6701c41111c0",
+        "id": "522a8740-4dfa-4513-8227-cc3a143efc40",
         "rating": 20,
-        "text": "1 star because he didn't serve me coffee",
-        "name": "art2",
-        "timestamp": 1657218680960
-      },
-      {
-        "id": "1fba00a8-a14f-407f-9e08-4cbba09108f1",
-        "rating": 60,
-        "text": "ok but not pretty enough",
-        "name": "d",
-        "timestamp": 1657219830925
+        "text": "had bedbugs so beware",
+        "name": "J",
+        "timestamp": 1657741692325
       }
     ]
   }
