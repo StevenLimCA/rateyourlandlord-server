@@ -14,9 +14,10 @@ function getAllListing(req, res) {
 
     if (req.query.search !== undefined) {
       listings = listings.filter((Listing) => {
-        return Listing.name
-          .toLowerCase()
-          .includes(req.query.search.toLowerCase());
+        return (
+          Listing.name.toLowerCase().includes(req.query.search.toLowerCase()) ||
+          Listing.address.toLowerCase().includes(req.query.search.toLowerCase())
+        );
       });
     }
     res.status(200).json(listings);

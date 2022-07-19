@@ -312,6 +312,13 @@
         "text": "Great Service",
         "name": "B",
         "timestamp": 1657215959152
+      },
+      {
+        "id": "0386b4da-9bb8-4c68-add8-62100500b107",
+        "rating": 100,
+        "text": "hello my name is bob its a great place to spend a night",
+        "name": "B",
+        "timestamp": 1657933017925
       }
     ]
   },
@@ -319,12 +326,12 @@
     "id": "dfeb1c98-d748-4e71-8f10-40b012b577b2",
     "name": "Megan Roberts",
     "email": "Meg@roberts.com",
-    "phone": "1234567890",
-    "address": "6551 No. 3 Rd, Richmond, BC V6Y 2B6, Canada",
+    "phone": "12345678901",
+    "address": "Number 3 Rd, Richmond, BC, Canada",
     "desc": "1 bedroom 1 bathroom",
     "price": "1245",
-    "lat": "49.16600529999999",
-    "lng": "-123.1385914",
+    "lat": "49.1532687",
+    "lng": "-123.1366635",
     "postingDate": 1657741544963,
     "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657741544927.jpg",
     "reviews": [
