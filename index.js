@@ -7,7 +7,7 @@ const server = process.env.LOCAL_SERVER;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static("public"));
+app.use(express.static("public")); // makes a public folder for storing images
 app.use(cors());
 
 app.use("/listing", listing);
