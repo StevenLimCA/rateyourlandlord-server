@@ -10,7 +10,7 @@
     "lat": "49.2554489",
     "lng": "-123.1148733",
     "postingDate": 1657201867467,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657201867428.jpg",
+    "imgPath": "https://rateyourlandlord-server-production.up.railway.app/images/1657201867428.jpg",
     "reviews": [
       {
         "id": "103e1630-2dd7-4197-a420-615bc8c95193",
@@ -46,7 +46,7 @@
     "lat": "49.2911932",
     "lng": "-123.1299827",
     "postingDate": 1657202899900,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657202899877.jpg",
+    "imgPath": "https://rateyourlandlord-server-production.up.railway.app/images/1657202899877.jpg",
     "reviews": [
       {
         "id": "fb7ccb25-4d77-4927-a90b-9d18edf4fdd7",
@@ -89,7 +89,7 @@
     "lat": "53.1746911",
     "lng": "-7.7188899",
     "postingDate": 1657203424294,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657203424281.jpg",
+    "imgPath": "https://rateyourlandlord-server-production.up.railway.app/images/1657203424281.jpg",
     "reviews": [
       {
         "id": "eaba9de8-0c8b-42f5-9312-8b68e5c99df6",
@@ -167,7 +167,7 @@
     "lat": "43.6455606",
     "lng": "-79.39540939999999",
     "postingDate": 1657205073027,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657205073009.jpg",
+    "imgPath": "https://rateyourlandlord-server-production.up.railway.app/images/1657205073009.jpg",
     "reviews": [
       {
         "id": "b9ad8252-e069-4c15-8637-17768c2f8847",
@@ -203,7 +203,7 @@
     "lat": "49.2850523",
     "lng": "-123.1147406",
     "postingDate": 1657205400350,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657205400334.jpg",
+    "imgPath": "https://rateyourlandlord-server-production.up.railway.app/images/1657205400334.jpg",
     "reviews": [
       {
         "id": "921b7d4e-4b37-4820-b088-f8c82e87c403",
@@ -239,7 +239,7 @@
     "lat": "51.5209968",
     "lng": "-0.0772543",
     "postingDate": 1657205699376,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657205699360.jpg",
+    "imgPath": "https://rateyourlandlord-server-production.up.railway.app/images/1657205699360.jpg",
     "reviews": [
       {
         "id": "f809211b-1902-42f0-9013-3216582c1921",
@@ -268,7 +268,7 @@
     "lat": "49.2272982",
     "lng": "-122.9999893",
     "postingDate": 1657214909970,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657214909959.jpg",
+    "imgPath": "https://rateyourlandlord-server-production.up.railway.app/images/1657214909959.jpg",
     "reviews": [
       {
         "id": "67f02ed3-ec9e-4614-821c-65ecb605953c",
@@ -297,7 +297,7 @@
     "lat": "49.2276257",
     "lng": "-123.0075756",
     "postingDate": 1657215908295,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657215908275.jpg",
+    "imgPath": "https://rateyourlandlord-server-production.up.railway.app/images/1657215908275.jpg",
     "reviews": [
       {
         "id": "3d390162-1b46-49cd-b117-7bafeb2ec5e5",
@@ -333,7 +333,7 @@
     "lat": "49.1532687",
     "lng": "-123.1366635",
     "postingDate": 1657741544963,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1657741544927.jpg",
+    "imgPath": "https://rateyourlandlord-server-production.up.railway.app/images/1657741544927.jpg",
     "reviews": [
       {
         "id": "2b6e59ad-df60-4e99-8552-ab62ab0909de",
@@ -362,7 +362,7 @@
     "lat": "35.6901234",
     "lng": "139.6917724",
     "postingDate": 1658259362374,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1658259362351.jpg",
+    "imgPath": "https://rateyourlandlord-server-production.up.railway.app/images/1658259362351.jpg",
     "reviews": [
       {
         "id": "aa2fdf4d-8669-4573-b699-8abaa5bec9f4",
@@ -391,7 +391,7 @@
     "lat": "55.94621619999999",
     "lng": "-3.208473",
     "postingDate": 1658259570576,
-    "imgPath": "https://rateyourlandlord.herokuapp.com/images/1658259570566.jpg",
+    "imgPath": "https://rateyourlandlord-server-production.up.railway.app/images/1658259570566.jpg",
     "reviews": [
       {
         "id": "6c8157c6-796a-455c-923f-945e476ce570",
