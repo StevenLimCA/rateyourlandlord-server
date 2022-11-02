@@ -1,17 +1,18 @@
-FROM node:16
+FROM node:18.7.0
+RUN apt-get update && apt-get install -y \
+  nano \
+  Vim
 
 # Working Dir
-WORKDIR /usr/rateyourlandlord-server
+WORKDIR /code
 
-ENV USERNAME=StevenLimCA
-ENV TOKEN=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
-
-# Clone code from GitHub
-RUN git clone https://${USERNAME}:${TOKEN}@github.com/StevenLimCA/rateyourlandlord-server.git .
+COPY package.json package.json
+COPY package-lock.json package-lock.json
 
 # Install nodejs packages
 RUN npm install
 
+COPY . .
 # Expose the API PORT
 EXPOSE 8080
 
