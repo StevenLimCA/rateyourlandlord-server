@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FROM node:18.7.0
 RUN apt-get update && apt-get install -y \
   nano \
@@ -18,3 +19,5 @@ EXPOSE 8080
 
 # Run the app
 CMD ["node", "./index.js"]
+=======
+>>>>>>> parent of 69ca70c ( added DockerFile for deploy)
